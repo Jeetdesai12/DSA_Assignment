@@ -1,0 +1,42 @@
+          4
+a--------------b 
+ \             | \
+  \            |  \ 2
+   \           |   \
+    \          |    \
+     \         |     d
+      \        |
+       \       |
+     10 \      | 
+         \     | 12
+          \    |
+           \   |
+            \  |
+             \ |
+              c
+              
+Above is graph example.
+
+Weighted matrix is -->
+
+0 4 10 99
+4 0 12 2
+10 12 0 99
+99 2 99 0
+
+MST answer should be --> 
+
+Enter no. of vertices                                                                           
+4                                                                                               
+Enter the weight matrix of graph:                                                               
+0 4 10 99                                                                                       
+4 0 12 2                                                                                        
+10 12 0 99                                                                                      
+99 2 99 0                                                                                       
+                                                                                                
+Edges of min-cost spanning tree are                                                             
+(1,2)                                                                                           
+(2,4)                                                                                           
+(1,3)                                                                                           
+Cost of Minimum Spanning Tree =16 
+
